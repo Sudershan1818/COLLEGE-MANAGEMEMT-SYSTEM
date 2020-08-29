@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<div class="panel panel-info" style="width:70%; margin:20px auto;" >
+<div class='panel-heading'>
+<div class='text-center'>
+<h1 > Detail of Assignment</h1>
+</div>
+</div>
+<div class='panel-body'>
+<div class='container' style='width:70%;margin:10px auto; padding-left:20%'>
+<div class='row'>
+<div class='col-md-4'>
+<strong>
+Stream:</strong>
+</div>
+<div class='col-md-8'>
+IT</div>
+</div>
+<div class='row'>
+<div class='col-md-4'>
+<strong>
+Subject:</strong>
+</div>
+<div class='col-md-8'>
+ss</div>
+</div>
+<div class='row'>
+<div class='col-md-4'>
+<strong>
+Batch:
+</strong>
+</div>
+<div class='col-md-8'>
+first</div>
+</div>
+<div class='row'>
+<div class='col-md-4'>
+<strong>
+Last Date:
+</strong>
+</div>
+<div class='col-md-8'>
+08-08-2017</div>
+</div>
+<div class='row'>
+<div class='col-md-4'>
+<strong>
+View File:
+</strong>
+</div>
+<div class='col-md-8'>
+<a href='assignment/a829b6def307bd357011e57e5d6a635dfee_submission_notice_sem-3,5,7.pdf'>View File</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='text-center'>
+View Assignment according given Data
+</div>
+<div>
+<div class='panel panel-info'>
+<div class="panel-body" style="background-color:#EAE6E8;">
+<form class="form-group" action="teacher_view.php" method="post" >
+<div class="row">
+					<div class="col-md-3">
+				<strong><span style="color:#1C093C">Stream</span></strong>
+					</div>
+					<div class="col-md-9" >
+					<select class="selectpicker form-control" name="stream1">
+        <option value="IT">IT</option>
+        <option value="CSE">CSE</option>
+      </select>
+					</div>
+					</div>
+					<br>
+                    <div class="row">
+					<div class="col-md-3">
+				<strong><span style="color:#1C093C">Batch Year</span></strong>
+					</div>
+					<div class="col-md-9" >
+					<select class="selectpicker form-control" name="year1">
+        <option value="first">FIRST</option>
+        <option value="second">SECOND</option>
+        <option value="third">THIRD</option>
+		<option value="fourth">FOURTH</option>
+      </select>
+					</div>
+					</div>
+					<br>
+					<div class="row">
+					<div class="col-md-3">
+					<strong><span style="color:#1C093C;">Subject</span></strong>
+					</div>
+					<div class="col-md-9" >
+       <input type="text" placeholder="Please Enter Subject" required class="form-control" name="subject1" id="subject" />
+					<div id="span1" style="display:none; color:red">Subject Name Should Be Valid</div>
+					</div>
+					</div>
+					<br>
+				   <div class="row">
+					<div class="col-md-3">
+						<strong><span style="color:#1C093C;">Last date<br>
+						For Submission</span></strong>
+					</div>
+					<div class='col-sm-9'>
+               
+                     <input name="dob" id="dob" type="text" size="11" placeholder="dd-mm-yyyy" required >
+
+				
+					 </div>
+					
+</div>
+<br>
+                    <div class="row">
+					<div class="col-md-3">
+					</div>
+					<div class="col-md-9" >
+       <input type="submit"  name="submit" class="btn btn-success btn-md">
+					</div>
+					</div>
+					</div>
+					<div>
+					
+<div class='container-fluid' class='text-center' style='min-height:100px;padding-top:40px; padding-left:20%;'> assignment/a829b6def307bd357011e57e5d6a635dfee_submission_notice_sem-3,5,7.pdf<br/></div><br />
+<b>Notice</b>:  Undefined variable: FileName in <b>C:\xampp\htdocs\registration\teacher_view.php</b> on line <b>166</b><br />
+<br />
+<b>Warning</b>:  readfile(): Filename cannot be empty in <b>C:\xampp\htdocs\registration\teacher_view.php</b> on line <b>166</b><br />
+</div>
